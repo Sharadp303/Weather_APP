@@ -1,0 +1,58 @@
+.tit{
+    
+    text-align: center;
+    background-color: rgba(104, 140, 141, 0.918);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    width: 200px;
+    margin:auto;
+    border-radius: 5px;
+    padding: 2px;
+
+
+}
+.container{
+    margin:150px auto;
+    width:400px;
+    height: 200px;
+    padding:25px ;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color:rgb(105, 105, 105);
+}
+label{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: larger;
+    font-family:cursive;
+    font-weight: 800;
+}
+#city{
+    display:block;
+    margin:5px;
+    padding: 2px;
+    height: 25px;
+
+}
+button{
+    margin:5px 10px;
+    padding: 2px 0;
+    width: 150px;
+    height:30px;
+    background-color: cornflowerblue;
+    border-radius: 25px;
+    border: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    opacity: 0.9;
+    background-image: url("img.jpg");
+    
+}
+#result{
+    text-align:center;
+    line-height: 25px;
+    font-weight: 800;
+}
