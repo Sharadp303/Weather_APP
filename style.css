@@ -1,3 +1,12 @@
+.navbar>li{
+    display: inline-block;
+    position: relative;
+    /* top: 15px; */
+    margin: 5px 40px;
+    font-size: 25px;
+    font-family:fantasy;
+}
+
 .tit{
     
     text-align: center;
@@ -12,7 +21,10 @@
 
 }
 .container{
-    margin:150px auto;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left:450px;
     width:400px;
     height: 200px;
     padding:25px ;
@@ -22,21 +34,28 @@
 }
 label{
     display: inline-block;
+    position: relative;
+    left: 150px;
     margin-top: 15px;
-    margin-left: 5px;
     font-size: larger;
     font-family:cursive;
     font-weight: 800;
 }
 #city{
-    display:block;
+    display: inline-block;
+    position: relative;
+    top: 40px;
     margin:5px;
     padding: 2px;
     height: 25px;
+    border-radius: 5px;
 
 }
 button{
-    margin:5px 10px;
+    position: relative;
+    top:40px;
+    left:125px;
+    margin:5px 0px;
     padding: 2px 0;
     width: 150px;
     height:30px;
@@ -52,6 +71,8 @@ body{
     
 }
 #result{
+    position: relative;
+    top: 40px;
     text-align:center;
     line-height: 25px;
     font-weight: 800;
