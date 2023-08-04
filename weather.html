@@ -8,22 +8,26 @@
     
 </head>
 <body>
-    <div >
-        <nav>
-            <ul class="navbar">
-                <li><a href="#navbar">Home</a></li>
-                <li><a href="#navbar">News</a></li>
-                <li><a href="#navbar">About</a></li>
-            </ul>
-        </nav>
-    </div>
-
-    <div class="container">
-        <h1 class="tit">Weather App</h1>
-        <label for="city">Enter City: </label>
-        <input type="text" id="city">
-        <button onclick="getWeather()">Get weather</button>
-        <div class="result" id="result"></div>
+    <div class="main">
+        <div >
+            <nav>
+                <ul class="navbar">
+                    <li class="list"><a href="#navbar">Home</a></li>
+                    <li class="list"><a href="#navbar">News</a></li>
+                    <li class="list"><a href="#navbar">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <img class="gif" src="giphy.gif" alt="">
+        </div>
+        <div class="container">
+            <h1 class="tit">Weather App</h1>
+            <label for="city">Enter City: </label>
+            <input class="input" type="text" id="city">
+            <button onclick="getWeather()">Get weather</button>
+            <div class="result" id="result"></div>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
